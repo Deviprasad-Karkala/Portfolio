@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Deviprasad</div>
+      <div class="right">
+        <ul>
+         <li> <a href="">Home</a></li>
+         <li> <a href="">About</a></li>
+         <li> <a href="">Services</a></li>
+         <li> <a href="">Projects</a></li>
+         <li> <a href="">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="firstSection">
+      <div class="leftsection">
+        I am Deviprasad.
+        <div>I am a passionate about</div>
+        <div><span id="element"></span></div>
+        <div class="buttons">
+          <button onclick="" class="btn">My Resume</button>
+          <button onclick="window.location.href='https://github.com/Deviprasad-Karkala';" class="btn">GitHub</button>
+        </div>
+        
+      </div>
+      <div class="rightsection">
+        <img src="./images/PngItem_1127587.png" alt="">
+      </div>
+    </section>
+    <hr>
+  </main>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: [ 'Graphic Designer', 'Video Editor','Front-End Developer'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
