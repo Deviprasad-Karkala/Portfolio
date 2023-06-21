@@ -7,6 +7,7 @@ body {
     background-color: white;
     font-family: 'IBM Plex Sans', sans-serif;
     color: #060823;
+    letter-spacing: 1px;
 }
 
 /* Navbar */
@@ -15,7 +16,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 70px;
+    height: 90px;
     width: 100%;
     background-color: rgb(243, 243, 243);
     position: fixed;
@@ -30,6 +31,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
+    align-self: center;
 }
 
 nav ul li a{
@@ -38,11 +40,14 @@ nav ul li a{
     transition: 0.3s;
     font-size: 1.2rem;
     font-weight: 400;
+    
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     text-decoration: none;
     color: #000000;
     font-size: 1.3rem;
+    
 }
 
 .left {
@@ -50,7 +55,27 @@ nav ul li a:hover{
     font-weight: 600;
     letter-spacing: 2px;
 }
+nav .right .btn {
+    padding: 13px 26px;
+    background-color: #222222;
+    color: rgb(243, 243, 243);
+    border-radius: 2px;
+    border: 2px solid #222222;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
+}
 
+nav .right .btn:hover {
+    background-color: white;
+    color: #424242;
+    border: 2px solid #636a7E;
+    cursor: pointer;
+
+}
 
 /* Section one */
 
@@ -61,48 +86,96 @@ nav ul li a:hover{
     margin: 120px 0 60px 0;
 }
 
-.firstSection > div {
+.firstSection>div {
     width: 30%;
 }
 
-.leftsection{
+.leftsection {
     font-size: 3rem;
     font-weight: 600;
     padding-left: 180px;
 }
-.leftsection div{
+
+.leftsection div {
     font-size: 2.1rem;
     font-weight: 400;
     color: #636a7E;
 }
-.leftsection .buttons{
+
+.leftsection .buttons {
     padding: 30px 0;
 }
-.leftsection .btn{
-    padding: 13px 23px;
+
+.leftsection .btn {
+    padding: 13px 26px;
     background-color: #222222;
-    color: white;
+    color: rgb(243, 243, 243);
     border-radius: 2px;
     border: 2px solid #222222;
     border-radius: 8px;
     font-size: 18px;
     font-weight: 500;
     transition: 0.3s;
-}
-.leftsection .btn:hover{
-    background-color:white; 
-    color: black;
-    border: 2px solid #636a7E;
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
-.rightsection img{
+.leftsection .btn:hover {
+    background-color: white;
+    color: #424242;
+    border: 2px solid #636a7E;
+    cursor: pointer;
+
+}
+
+.rightsection img {
     width: 70%;
-    
-} 
-hr{
+
+}
+
+hr {
     border: 0;
-    background:rgb(230, 230, 230) ;
+    background: rgb(230, 230, 230);
     height: 2px;
     margin: 0px 150px;
-}              
+}
+
+/* Second Section*/
+
+.subHeading {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 30px 0 0 320px;
+}
+
+.secondSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px 0 30px 300px;
+    width: 69%;
+
+}
+
+.secondSection .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 20%;
+    margin: 0px 40px 40px 40px;
+    border: 1px solid rgba(49, 49, 49, 0.1);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #f8f8f8;
+    border-radius: 16px;
+    padding:30px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #424242;
+
+}
+
+.box img {
+    width: 25%;
+    padding: 20px 0;
+    flex: 1;
+}
