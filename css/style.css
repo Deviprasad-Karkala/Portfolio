@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
 }
-html{
+
+html {
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
 }
+
 body {
     background-color: white;
     font-family: 'IBM Plex Sans', sans-serif;
@@ -60,7 +62,7 @@ nav ul li a:hover {
 
 }
 
-a{
+a {
     font-size: 1.7rem;
     font-weight: 600;
     letter-spacing: 2px;
@@ -295,7 +297,7 @@ hr {
 }
 
 .projects .box p {
-    font-size: 16px;
+    font-size: 1.1rem;
     font-weight: 400;
     color: #424242;
 }
