@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -20,23 +21,28 @@
           <li> <a href="">Home</a></li>
           <li> <a href="">About</a></li>
           <li><a href="">Skills</a></li>
-          <li> <a href="">Services</a></li>
           <li> <a href="">Projects</a></li>
-          <button onclick="window.location.href='https://www.linkedin.com/in/devipra5ad/';" class="btn">LinkedIn</button>
+          <li> <a href="">Services</a></li>
+          <button onclick="window.location.href='https://www.linkedin.com/in/devipra5ad/';" class="btn"><i
+              class="fa fa-linkedin-square" style="font-size:20px; position: relative;top: 1.2px;"></i>
+            LinkedIn</button>
         </ul>
-        
+
       </div>
     </nav>
   </header>
   <main>
+    <!-- First section-->
     <section class="firstSection">
       <div class="leftsection">
         I am Deviprasad.
         <div>I am a passionate about</div>
         <div><span id="element"></span></div>
         <div class="buttons">
-          <button style="margin-right: 10px;" onclick="" class="btn">My Resume</button>
-          <button onclick="window.location.href='https://github.com/Deviprasad-Karkala';" class="btn">GitHub</button>
+          <button style="margin-right: 10px;" onclick="" class="btn"><i class="fa fa-file-pdf-o"
+              style="font-size:20px; position: relative;top: 1px;padding-top: 3px;"></i> Resume</button>
+          <button onclick="window.location.href='https://github.com/Deviprasad-Karkala';" class="btn"><i
+              class="fa fa-github" style="font-size:25px; position: relative;top: 2px;"></i> GitHub</button>
         </div>
 
       </div>
@@ -44,9 +50,30 @@
         <img src="./images/PngItem_1127587.png" alt="">
       </div>
     </section>
+
     <hr>
+
+    <section class="aboutMe">
+      <div class="leftAbout">
+        <img src="./images/me.jpg" alt="">
+      </div>
+      <div class="rightAbout">
+        I am Deviprasad - I am a multi-disciplinary creative professional specializing in Front-End Development, Video
+        Editing, Graphic Design, and VFX Editing. With a passion for crafting visually stunning and seamless
+        experiences, I strive to blend technology and design to leave a lasting impact.
+        <div class="buttons">
+          <a href="mailto:deviprasad.karkala@gmail.com" class="btn"><i class="fa fa-envelope"
+              style="font-size:20px"></i> Hire Me</a>
+
+        </div>
+      </div>
+    </section>
+
+    <hr>
+    <!--Skills-->
     <div class="subHeading">Skills</div>
-    <section class="secondSection">
+
+    <section class="skills">
       <div class="box">
         <img src="./images/HTML.svg" alt="">
         HTML5
@@ -75,7 +102,7 @@
       </div>
       <div class="box">
         <img src="./images/office.svg" alt="">
-        Office
+        Microsoft Office
       </div>
       <div class="box">
         <img src="./images/after-effects.svg" alt="">
@@ -86,9 +113,54 @@
         Premier Pro
       </div>
     </section>
+
     <hr>
-    
+    <!--Projects-->
+    <div class="subHeading">Projects</div>
+
+    <section class="projects">
+      <div class="box">
+        <img src="./images/Projects.png" alt="">
+        <a href="https://github.com/Deviprasad-Karkala/Temple-Management"><i class="fa fa-github"
+            style="font-size:25px; position: relative;top: 1.5px;"></i> Temple Management</a>
+        <p>Internship Project</p>
+      </div>
+      <div class="box">
+        <img src="./images/Projects.png" alt="">
+        <a href="https://github.com/Deviprasad-Karkala/Portfolio"><i class="fa fa-github"
+            style="font-size:25px; position: relative;top: 1.5px;"></i> Portfolio</a>
+        <p>My Personal Portfolio</p>
+      </div>
+    </section>
+
+    <hr>
+    <!--Services-->
+    <div class="subHeading">Services</div>
+
+    <section class="skills">
+      <div class="box">
+        <img src="./images/Web development.png" alt="">
+        <h1>Web Development</h1>
+        <p>6 Month Experience</p>
+      </div>
+      <div class="box">
+        <img src="./images/Video edit.png" alt="">
+        <h1>Video Edit</h1>
+        <p>5-6 Year Experience</p>
+      </div>
+      <div class="box">
+        <img src="./images/Graphic design.png" alt="">
+        <h1>Graphic Design</h1>
+        <p>5-6 Year Experience</p>
+      </div>
+    </section>
+
   </main>
+
+  <footer>
+    copyright &copy; Deviprasad 2023
+  </footer>
+
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script>
     var typed = new Typed('#element', {
