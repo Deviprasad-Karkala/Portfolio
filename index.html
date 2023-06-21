@@ -15,16 +15,18 @@
 <body>
   <header>
     <nav>
-      <div class="left">Deviprasad</div>
+      <a href="#home">
+        <div class="left">Deviprasad</div>
+      </a>
       <div class="right">
         <ul>
-          <li> <a href="">Home</a></li>
-          <li> <a href="">About</a></li>
-          <li><a href="">Skills</a></li>
-          <li> <a href="">Projects</a></li>
-          <li> <a href="">Services</a></li>
+          <li> <a href="#home">Home</a></li>
+          <li> <a href="#about">About</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li> <a href="#project">Projects</a></li>
+          <li> <a href="#service">Services</a></li>
           <button onclick="window.location.href='https://www.linkedin.com/in/devipra5ad/';" class="btn"><i
-              class="fa fa-linkedin-square" style="font-size:20px; position: relative;top: 1.2px;"></i>
+              class="fa fa-linkedin-square" style="font-size:25px; position: relative;top: 1.2px;"></i>
             LinkedIn</button>
         </ul>
 
@@ -33,7 +35,7 @@
   </header>
   <main>
     <!-- First section-->
-    <section class="firstSection">
+    <section id="home" class="firstSection">
       <div class="leftsection">
         I am Deviprasad.
         <div>I am a passionate about</div>
@@ -53,7 +55,7 @@
 
     <hr>
 
-    <section class="aboutMe">
+    <section id="about" class="aboutMe">
       <div class="leftAbout">
         <img src="./images/me.jpg" alt="">
       </div>
@@ -64,14 +66,20 @@
         <div class="buttons">
           <a href="mailto:deviprasad.karkala@gmail.com" class="btn"><i class="fa fa-envelope"
               style="font-size:20px"></i> Hire Me</a>
-
+        </div>
+        <div class="sMedia">
+          <a style="position: relative; top:3px;" href="https://twitter.com/DEVIPRA5AD"><img style="width: 25px;"
+              src="./images/Twitter.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/devipra5ad/"><img src="./images/linkedin-icon-1.svg" alt=""></a>
+          <a style="position: relative; bottom: -2px;" href="https://github.com/Deviprasad-Karkala"><img
+              src="./images/GitHub.svg" alt="" style="width: 22px;"></a>
         </div>
       </div>
     </section>
 
     <hr>
     <!--Skills-->
-    <div class="subHeading">Skills</div>
+    <div id="skill" class="subHeading">Skills</div>
 
     <section class="skills">
       <div class="box">
@@ -116,7 +124,7 @@
 
     <hr>
     <!--Projects-->
-    <div class="subHeading">Projects</div>
+    <div id="project" class="subHeading">Projects</div>
 
     <section class="projects">
       <div class="box">
@@ -135,7 +143,7 @@
 
     <hr>
     <!--Services-->
-    <div class="subHeading">Services</div>
+    <div id="service" class="subHeading">Services</div>
 
     <section class="skills">
       <div class="box">
