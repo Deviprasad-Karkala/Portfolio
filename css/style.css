@@ -6,13 +6,14 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 7rem;
+    font-size: 10px;
 }
 
 body {
     background-color: white;
     font-family: 'IBM Plex Sans', sans-serif;
     color: #060823;
-    letter-spacing: 1px;
+    letter-spacing: .1rem;
     display: flex;
     flex-direction: column;
 }
@@ -27,7 +28,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 90px;
+    height: 9rem;
     width: 100%;
     background-color: rgb(243, 243, 243);
     position: fixed;
@@ -38,7 +39,7 @@ nav {
 
 nav ul {
     display: flex;
-    gap: 24px;
+    gap: 2.4rem;
 }
 
 nav ul li {
@@ -50,7 +51,7 @@ nav ul li a {
     text-decoration: none;
     color: #424242;
     transition: 0.3s;
-    font-size: 1.2rem;
+    font-size: 1.92rem;
     font-weight: 400;
 
 }
@@ -58,36 +59,36 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: none;
     color: #000000;
-    font-size: 1.3rem;
+    font-size: 2.08rem;
 
 }
 
 a {
-    font-size: 1.7rem;
+    font-size: 2.72rem;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: .2rem;
     text-decoration: none;
     color: rgb(19, 19, 19);
 }
 
 nav .right .btn {
-    padding: 13px 26px;
+    padding: 1.3rem 2.6rem;
     background-color: #222222;
     color: rgb(243, 243, 243);
-    border-radius: 2px;
-    border: 2px solid #222222;
-    border-radius: 8px;
-    font-size: 18px;
+    border-radius: .2rem;
+    border: .2rem solid #222222;
+    border-radius: .8rem;
+    font-size: 1.8rem;
     font-weight: 500;
     transition: 0.3s;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 5.0rem 10.0rem -2.0rem, rgba(0, 0, 0, 0.3) 0rem 3.0rem 6.0rem -3.0rem, rgba(10, 37, 64, 0.35) 0rem -.2rem .6rem 0rem inset;
 
 }
 
 nav .right .btn:hover {
     background-color: white;
     color: #424242;
-    border: 2px solid #636a7E;
+    border: .2rem solid #636a7E;
     cursor: pointer;
 
 }
@@ -98,7 +99,7 @@ nav .right .btn:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 120px 0 60px 0;
+    margin: 12.0rem 0 6.0rem 0;
 }
 
 .firstSection>div {
@@ -108,7 +109,7 @@ nav .right .btn:hover {
 .leftsection {
     font-size: 3rem;
     font-weight: 600;
-    padding-left: 180px;
+    padding-left: 18.0rem;
 }
 
 .leftsection div {
@@ -118,26 +119,26 @@ nav .right .btn:hover {
 }
 
 .leftsection .buttons {
-    padding: 30px 0;
+    padding: 3.0rem 0;
 }
 
 .leftsection .btn {
-    padding: 13px 26px;
+    padding: 1.3rem 2.6rem;
     background-color: #222222;
     color: rgb(243, 243, 243);
-    border-radius: 5px;
-    border: 2px solid #222222;
-    border-radius: 8px;
-    font-size: 18px;
+    border-radius: .5rem;
+    border: .2rem solid #222222;
+    border-radius: .8rem;
+    font-size: 1.8rem;
     font-weight: 500;
     transition: 0.3s;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 5.0rem 10.0rem -2.0rem, rgba(0, 0, 0, 0.3) 0rem 3.0rem 6.0rem -3.0rem, rgba(10, 37, 64, 0.35) 0rem -.2rem .6rem 0rem inset;
 }
 
 .leftsection .btn:hover {
     background-color: white;
     color: #424242;
-    border: 2px solid #636a7E;
+    border: .2rem solid #636a7E;
     cursor: pointer;
 
 }
@@ -150,8 +151,8 @@ nav .right .btn:hover {
 hr {
     border: 0;
     background: rgb(230, 230, 230);
-    height: 2px;
-    margin: 0px 150px;
+    height: .2rem;
+    margin: 0rem 15.0rem;
 }
 
 /*About section*/
@@ -160,23 +161,23 @@ hr {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 60px 0 60px 0;
+    margin: 6.0rem 0 6.0rem 0;
     margin-left: 23%;
     width: 70%;
 }
 
 .leftAbout img {
-    border: 0px;
-    border-radius: 30px;
+    border: 0rem;
+    border-radius: 3.0rem;
     width: 45%;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
 
 .rightAbout {
     position: relative;
-    top: 10px;
+    top: 1.0rem;
     left: -22%;
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-weight: 400;
     color: #1b1b1b;
     text-align: justify;
@@ -184,17 +185,17 @@ hr {
 }
 
 .rightAbout .buttons {
-    padding: 30px 0;
+    padding: 3.0rem 0;
 }
 
 .rightAbout .btn {
-    padding: 13px 26px;
+    padding: 1.3rem 2.6rem;
     background-color: #222222;
     color: rgb(243, 243, 243);
-    border-radius: 5px;
-    border: 2px solid #222222;
-    border-radius: 8px;
-    font-size: 18px;
+    border-radius: .5rem;
+    border: .2rem solid #222222;
+    border-radius: .8rem;
+    font-size: 1.8rem;
     font-weight: 500;
     transition: 0.3s;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -203,7 +204,7 @@ hr {
 .rightAbout .btn:hover {
     background-color: white;
     color: #424242;
-    border: 2px solid #636a7E;
+    border: .2rem solid #636a7E;
     cursor: pointer;
 
 }
@@ -213,24 +214,24 @@ hr {
 }
 
 .sMedia img {
-    width: 20px;
-    padding: 0px 13px;
+    width: 2.0rem;
+    padding: 0rem 1.3rem;
 }
 
 
 /* Skills Section*/
 
 .subHeading {
-    font-size: 2rem;
+    font-size: 3.2rem;
     font-weight: 600;
-    margin: 40px 0 0 320px;
+    margin: 4.0rem 0 0 320rem;
 }
 
 .skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 30px 0 30px 300px;
+    margin: 3.0rem 0 3.0rem 30.0rem;
     width: 69%;
 
 }
@@ -240,14 +241,14 @@ hr {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex: 1 1 20%;
-    margin: 0px 40px 40px 40px;
-    border: 1px solid rgba(49, 49, 49, 0.1);
+    flex: 1 1 15%;
+    margin: 0rem 4rem 4rem 4rem;
+    border: .1rem solid rgba(49, 49, 49, 0.1);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: #f8f8f8;
-    border-radius: 16px;
-    padding: 30px 0px;
-    font-size: 18px;
+    border-radius: 1.6rem;
+    padding: 3.0rem 0rem;
+    font-size: 1.8rem;
     font-weight: 400;
     color: #424242;
 
@@ -256,7 +257,7 @@ hr {
 .skills .box img {
     width: 20%;
     height: auto;
-    padding: 20px 0;
+    padding: 2.0rem 0;
     flex: 1;
 }
 
@@ -266,7 +267,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 30px 0 30px 0px;
+    margin: 3rem 0 3rem 0;
     width: 45%;
     margin-left: 28%;
 
@@ -279,12 +280,12 @@ hr {
     justify-content: center;
     align-items: center;
     flex: 1 1 20%;
-    margin: 0px 40px 40px 40px;
-    border: 1px solid rgba(49, 49, 49, 0.1);
+    margin: 0 4rem 4rem 4rem;
+    border: .1rem solid rgba(49, 49, 49, 0.1);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     background-color: #f8f8f8;
-    border-radius: 16px;
-    padding: 50px 0px;
+    border-radius: 1.6rem;
+    padding: 5rem 0;
 
 
 }
@@ -292,18 +293,18 @@ hr {
 .projects .box img {
     width: 10%;
     height: auto;
-    padding: 5px 0 15px 0px;
+    padding: .5rem 0 1.5rem 0;
     flex: 1;
 }
 
 .projects .box p {
-    font-size: 1.1rem;
+    font-size: 1.76rem;
     font-weight: 400;
     color: #424242;
 }
 
 .projects .box a {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-weight: 600;
     color: #1b1b1b;
     text-decoration: none;
@@ -311,7 +312,7 @@ hr {
 }
 
 .projects .box a:hover {
-    font-size: 1.55rem;
+    font-size: 2.48rem;
     font-weight: 600;
     color: #1b1b1b;
     text-decoration: none;
@@ -320,26 +321,28 @@ hr {
 /* Services Section */
 
 .skills .box h1 {
-    font-size: 1.5rem;
+    font-size: 2.4rem;
     font-weight: 600;
     color: #1b1b1b;
 }
 
 .skills .box p {
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 400;
     color: #424242;
 }
 
 /* Footer */
 footer {
-    height: 50px;
+    height: 5rem;
     width: 100%;
     background-color: rgb(243, 243, 243);
     text-align: center;
     color: black;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
-    padding-top: 25px;
+    padding-top: 2.5rem;
 
 }
+
+/*Media Query*/
