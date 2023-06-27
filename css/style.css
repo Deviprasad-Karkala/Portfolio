@@ -446,17 +446,7 @@ footer {
 }
 }
 
-@media screen and (max-width: 414px) {
-    html{
-        font-size: 18%;
-    }
-    .leftAbout {
-        width: 30%;
-        height: 100px;
-    
-    }
-  
-}
+
 
 
 
@@ -465,7 +455,7 @@ footer {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
     html{
-        font-size: 28%;
+        font-size: 27%;
     }
 
     .subHeading {
