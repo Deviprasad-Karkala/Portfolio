@@ -553,13 +553,13 @@ footer {
 
     /*Projects*/
     .projects {
-        margin:1rem;
+        margin:5rem;
     }
     
     .projects .box {
         flex: 1 1 20%;
         margin: 0 2rem 4rem 4rem;
-        padding: 1rem;
+        padding: 5rem;
     }
 
     /*Services*/
