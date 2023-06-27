@@ -24,6 +24,7 @@ body {
     flex: 1;
 }
 
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -106,8 +107,9 @@ nav .right .btn:hover {
     width: 30%;
 }
 
+
 .leftsection {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 600;
     padding-left: 18.0rem;
 }
@@ -224,7 +226,7 @@ hr {
 .subHeading {
     font-size: 3.2rem;
     font-weight: 600;
-    margin: 4.0rem 0 0 320rem;
+    margin: 4.0rem 0 0 32rem;
 }
 
 .skills {
@@ -268,7 +270,7 @@ hr {
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 3rem 0 3rem 0;
-    width: 45%;
+    width: 50%;
     margin-left: 28%;
 
 
@@ -291,14 +293,14 @@ hr {
 }
 
 .projects .box img {
-    width: 10%;
+    width: 3rem;
     height: auto;
     padding: .5rem 0 1.5rem 0;
     flex: 1;
 }
 
 .projects .box p {
-    font-size: 1.76rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: #424242;
 }
@@ -344,5 +346,3 @@ footer {
     padding-top: 2.5rem;
 
 }
-
-/*Media Query*/
