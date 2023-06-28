@@ -145,6 +145,20 @@ nav .right .btn:hover {
 
 }
 
+.leftsection  #reverse{
+    background-color:  white;
+    color: #222222;
+    border: .2rem solid #636a7E;
+}
+
+.leftsection #reverse:hover {
+    background-color: #222222;
+    color: white;
+    border: .2rem solid #222222;
+    cursor: pointer;
+
+}
+
 .rightsection {
     display: flex;
     justify-content: flex-end;
