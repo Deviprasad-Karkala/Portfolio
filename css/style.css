@@ -402,25 +402,54 @@ footer {
 
 /* Media Query*/
 
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 1401px) {
     html {
         font-size: 70%;
     }
     .leftAbout {
-        width: 20%;
+        width: 30%;
         height: 340px;
 
     }
 
     .rightAbout {
-        width: 50%;
+        width: 55%;
     }
+
+    /*Skills*/
+
+    .skills {
+        margin:3rem 12rem ;
+    
+    }
+    .skills .box {
+        flex: 1 1 15%;
+    
+    }
+
+    /*Projects*/
+    .projects {
+        margin:5rem 30rem;
+        
+    }
+    .projects .box{
+        padding:5rem 0rem;
+    }
+    
+    
+
+    /*Services*/
+
+    .services {
+        margin: 3.0rem rem;
+    }
+    
 
     
 
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1300px) {
+@media screen and (min-width: 1025px) and (max-width: 1400px) {
     html {
         font-size: 55%;
     }
