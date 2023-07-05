@@ -606,26 +606,31 @@ footer {
         display: block;
         padding: 0px 25px;
         margin: 20px 0px;
-        transition: all .50s ease;
+        transition: all .30s ease;
         font-size: 5.5rem;
+        transition: 0.3s;
     }
 
     nav ul li a:hover {
-        font-size: 5rem;
+        font-size: 6rem;
 
     }
 
     nav .right .btn {
-        padding: 2.1rem 3.3rem;
-        background-color: #222222;
-        color: rgb(243, 243, 243);
-        border: .2rem solid #222222;
+        padding: 3.1rem 5.3rem;
         border-radius: 1.5rem;
         font-size: 4.5rem;
-        font-weight: 500;
-        transition: 0.3s;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 5.0rem 10.0rem -2.0rem, rgba(0, 0, 0, 0.3) 0rem 3.0rem 6.0rem -3.0rem, rgba(10, 37, 64, 0.35) 0rem -.2rem .6rem 0rem inset;
+        letter-spacing: 0.5rem;      
+    
 
+    }
+    .right .sizes{
+        font-size: 6rem;
+    }
+    .leftsection .sizes{
+        font-size: 6rem;
+        position: relative;
+        top: .4rem;
     }
 
     .menu.open {
@@ -655,6 +660,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
 
     .leftsection div {
@@ -664,14 +670,15 @@ footer {
     }
 
     .leftsection .buttons {
-        padding: 4.0rem 0;
+        padding: 7.0rem 0;
     }
 
     .leftsection .btn {
-        padding: 1.9rem 3.6rem;
+        padding: 2.9rem 4.6rem;
         border-radius: 1rem;
-        font-size: 3.8rem;
+        font-size: 4.8rem;
         font-weight: 400;
+
     }
 
     .rightsection {
@@ -781,18 +788,18 @@ footer {
 
     .services {
         margin: 3.0rem;
-    }
 
+    }
 
 
     .services .box img {
         width: 3rem;
+
+
     }
     footer{
         font-size:2.5rem ;
     }
-
-
 
     
 }
