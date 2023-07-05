@@ -7,7 +7,7 @@
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    scroll-padding-top: 10rem;
+    scroll-padding-top: 15rem;
 }
 
 body {
@@ -95,6 +95,22 @@ nav .right .btn:hover {
 
 }
 
+#menu-icon {
+    font-size: 5.5rem;
+    cursor: pointer;
+    margin-top: .5rem;
+    display: none;
+}
+
+.right .sizes{
+    font-size: 3rem;
+}
+.leftsection .sizes{
+    font-size: 3rem;
+    position: relative;
+    top: .3rem;
+}
+
 /* Section one */
 
 .firstSection {
@@ -145,8 +161,8 @@ nav .right .btn:hover {
 
 }
 
-.leftsection  #reverse{
-    background-color:  white;
+.leftsection #reverse {
+    background-color: white;
     color: #222222;
     border: .2rem solid #636a7E;
 }
@@ -406,6 +422,7 @@ footer {
     html {
         font-size: 70%;
     }
+
     .leftAbout {
         width: 20%;
         height: 340px;
@@ -419,33 +436,35 @@ footer {
     /*Skills*/
 
     .skills {
-        margin:3rem 12rem ;
-    
+        margin: 3rem 12rem;
+
     }
+
     .skills .box {
         flex: 1 1 15%;
-    
+
     }
 
     /*Projects*/
     .projects {
-        margin:5rem 30rem;
-        
+        margin: 5rem 30rem;
+
     }
-    .projects .box{
-        padding:5rem 0rem;
+
+    .projects .box {
+        padding: 5rem 0rem;
     }
-    
-    
+
+
 
     /*Services*/
 
     .services {
         margin: 3.0rem rem;
     }
-    
 
-    
+
+
 
 }
 
@@ -475,6 +494,7 @@ footer {
         height: 220px;
 
     }
+
     .rightAbout {
         font-size: 1.9rem;
         width: 40%;
@@ -491,53 +511,128 @@ footer {
         height: 180px;
 
     }
+
     .rightAbout {
         font-size: 1.9rem;
         width: 40%;
     }
 }
+
 @media screen and (min-width: 541px) and (max-width: 820px) {
-  html{
-    font-size: 30%;
-  }
-  .leftAbout {
-    width: 30%;
-    height: 130px;
-
-}
-.rightAbout {
-    font-size: 1.9rem;
-    width: 50%;
-}
-}
-@media screen and (min-width: 481px) and (max-width: 540px) {
-  html{
-    font-size: 24%;
-  }
-  .leftAbout {
-    width: 25%;
-    height: 100px;
-}
-.rightAbout {
-    font-size: 1.9rem;
-    width: 50%;
-}
-}
-
-
-
-/*Mobile Devices*/
-
-@media screen and (min-width: 370px) and (max-width: 480px) {
-    html{
-        font-size: 27%;
+    html {
+        font-size: 30%;
     }
 
+    .leftAbout {
+        width: 30%;
+        height: 130px;
+
+    }
+
+    .rightAbout {
+        font-size: 1.9rem;
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 540px) {
+    html {
+        font-size: 24%;
+    }
+
+    .leftAbout {
+        width: 25%;
+        height: 100px;
+    }
+
+    .rightAbout {
+        font-size: 1.9rem;
+        width: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 280px) and (max-width: 369px) {
+    html {
+        font-size: 20%;
+    }
     .subHeading {
-        font-size: 3.2rem;
+        font-size: 5rem;
         font-weight: 600;
         margin: 2rem 5rem;
     }
+
+    /*Responsive menu*/
+    #menu-icon {
+        display: block;
+        margin-right: 5rem;
+        font-size: 8rem;
+    }
+
+    .left {
+        font-size: 6rem;
+        margin-left: 5rem;
+    }
+
+    nav {
+        height: 13rem;
+        justify-content: space-between;
+
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        width: 80%;
+        height: 60vh;
+        right: -100%;
+        background-color: rgb(243, 243, 243);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all .50s ease;
+        border-bottom-left-radius: 10px;
+
+    }
+
+    .menu a {
+        display: block;
+        padding: 0px 25px;
+        margin: 20px 0px;
+        transition: all .50s ease;
+        font-size: 5.5rem;
+    }
+
+    nav ul li a:hover {
+        font-size: 5rem;
+
+    }
+
+    nav .right .btn {
+        padding: 2.1rem 3.3rem;
+        background-color: #222222;
+        color: rgb(243, 243, 243);
+        border: .2rem solid #222222;
+        border-radius: 1.5rem;
+        font-size: 4.5rem;
+        font-weight: 500;
+        transition: 0.3s;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 5.0rem 10.0rem -2.0rem, rgba(0, 0, 0, 0.3) 0rem 3.0rem 6.0rem -3.0rem, rgba(10, 37, 64, 0.35) 0rem -.2rem .6rem 0rem inset;
+
+    }
+
+    .menu.open {
+        right: 0%;
+    }
+
+
     /* First Section */
 
     .firstSection {
@@ -547,128 +642,243 @@ footer {
         align-items: center;
         margin: 15.0rem 0 6.0rem 0;
     }
-    
+
     .firstSection>div {
         width: 100%;
     }
-    
-    
+
+
     .leftsection {
         margin-top: 3.2rem;
-        font-size: 6rem;
+        font-size: 8rem;
         font-weight: 600;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .leftsection div {
-        font-size: 4.3rem;
+        font-size: 6.1rem;
         font-weight: 400;
         color: #636a7E;
     }
-    
+
     .leftsection .buttons {
-        padding: 3.0rem 0;
+        padding: 4.0rem 0;
     }
-    
+
     .leftsection .btn {
         padding: 1.9rem 3.6rem;
         border-radius: 1rem;
-        font-size: 2.8rem;
+        font-size: 3.8rem;
         font-weight: 400;
     }
-    
+
     .rightsection {
 
         justify-content: center;
 
     }
-    
+
     .rightsection img {
-        width: 45%;
+        width: 55%;
+        margin: 2.0rem 0;
     }
+
     hr {
         margin: 0rem 5.0rem;
     }
 
     /*About Section*/
 
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+    }
+
     .rightAbout {
-        font-size: 1.9rem;
+        font-size: 4rem;
         width: 100%;
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    
-    
-    .rightAbout .buttons{
-        padding-bottom: 2rem;
+
+
+    .rightAbout .buttons {
+        padding: 5rem 0 5rem;
     }
+
     .rightAbout .btn {
-        padding: 1.3rem 2.6rem;
+        padding: 2.3rem 4.6rem;
+
         border-radius: 1rem;
-        font-size: 2rem;
+        font-size: 4.5rem;
         font-weight: 400;
     }
-    
+
     .sMedia img {
-        width: 4.7rem;
+        width: 6.5rem;
     }
+
     .leftAbout {
-        width: 70%;
-        height: 120px;
-    
+        width: 45rem;
+        height: 45rem;
+        border-radius: 100px;
+
     }
 
     /*Skills*/
 
     .skills {
-        margin: 1rem ;
-    
+        margin: 1rem;
+    }
+
+    .skills .box {
+
+        flex: 1 1 40%;
+        font-size: 3rem;
+        font-weight: 400;
+        color: #424242;
+        height: 27rem;
+
+    }
+
+    .skills .box img {
+        width: 5rem;
+        height: auto;
+        padding: 2.0rem 0;
+        flex: 1;
     }
 
     /*Projects*/
     .projects {
-        margin:5rem;
+        margin: 3rem;
     }
-    
+
     .projects .box {
         flex: 1 1 20%;
         margin: 0 2rem 4rem 4rem;
         padding: 5rem;
     }
 
+    .projects .box img {
+        width: 4rem;
+
+    }
+
+    .projects .box a {
+        font-size: 2.7rem;
+        font-weight: 600;
+        color: #1b1b1b;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
     /*Services*/
 
     .services {
         margin: 3.0rem;
     }
-    
 
-    
+
+
     .services .box img {
         width: 3rem;
     }
-  
+    footer{
+        font-size:2.5rem ;
+    }
 
+
+
+    
 }
+/*Mobile Devices*/
 
-
-
-
-
-
-
-
-@media screen and (min-width: 280px) and  (max-width: 369px) {
-    html{
-        font-size: 20%;
+@media screen and (min-width: 370px) and (max-width: 480px) {
+    html {
+        font-size: 27%;
     }
 
     .subHeading {
-        font-size: 3.2rem;
+        font-size: 5rem;
         font-weight: 600;
         margin: 2rem 5rem;
     }
+
+    /*Responsive menu*/
+    #menu-icon {
+        display: block;
+        margin-right: 5rem;
+        font-size: 8rem;
+    }
+
+    .left {
+        font-size: 6rem;
+        margin-left: 5rem;
+    }
+
+    nav {
+        height: 13rem;
+        justify-content: space-between;
+
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        width: 80%;
+        height: 60vh;
+        right: -100%;
+        background-color: rgb(243, 243, 243);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all .50s ease;
+        border-bottom-left-radius: 10px;
+
+    }
+
+    .menu a {
+        display: block;
+        padding: 0px 25px;
+        margin: 20px 0px;
+        transition: all .30s ease;
+        font-size: 5.5rem;
+        transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+        font-size: 6rem;
+
+    }
+
+    nav .right .btn {
+        padding: 3.1rem 5.3rem;
+        border-radius: 1.5rem;
+        font-size: 4.5rem;
+        letter-spacing: 0.5rem;      
+    
+
+    }
+    .right .sizes{
+        font-size: 6rem;
+    }
+    .leftsection .sizes{
+        font-size: 6rem;
+        position: relative;
+        top: .4rem;
+    }
+
+    .menu.open {
+        right: 0%;
+    }
+
+
     /* First Section */
 
     .firstSection {
@@ -678,107 +888,162 @@ footer {
         align-items: center;
         margin: 15.0rem 0 6.0rem 0;
     }
-    
+
     .firstSection>div {
         width: 100%;
     }
-    
-    
+
+
     .leftsection {
         margin-top: 3.2rem;
-        font-size: 6rem;
+        font-size: 8rem;
         font-weight: 600;
         display: flex;
         flex-direction: column;
         align-items: center;
+        
     }
-    
+
     .leftsection div {
-        font-size: 4.3rem;
+        font-size: 6.1rem;
         font-weight: 400;
         color: #636a7E;
     }
-    
+
     .leftsection .buttons {
-        padding: 3.0rem 0;
+        padding: 7.0rem 0;
     }
-    
+
     .leftsection .btn {
-        padding: 1.9rem 3.6rem;
+        padding: 2.9rem 4.6rem;
         border-radius: 1rem;
-        font-size: 2.8rem;
+        font-size: 4.8rem;
         font-weight: 400;
+
     }
-    
+
     .rightsection {
 
         justify-content: center;
 
     }
-    
+
     .rightsection img {
-        width: 45%;
+        width: 55%;
+        margin: 2.0rem 0;
     }
+
     hr {
         margin: 0rem 5.0rem;
     }
 
     /*About Section*/
 
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+    }
+
     .rightAbout {
-        font-size: 1.9rem;
+        font-size: 4rem;
         width: 100%;
+        margin-top: 7rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-    
-    
-    .rightAbout .buttons{
-        padding-bottom: 2rem;
+
+
+    .rightAbout .buttons {
+        padding: 5rem 0 5rem;
     }
+
     .rightAbout .btn {
-        padding: 1.3rem 2.6rem;
+        padding: 2.3rem 4.6rem;
+
         border-radius: 1rem;
-        font-size: 2rem;
+        font-size: 4.5rem;
         font-weight: 400;
     }
-    
+
     .sMedia img {
-        width: 4.7rem;
+        width: 6.5rem;
     }
+
     .leftAbout {
-        width: 70%;
-        height: 120px;
-    
+        width: 45rem;
+        height: 45rem;
+        border-radius: 100px;
+
     }
 
     /*Skills*/
 
     .skills {
-        margin: 1rem ;
-    
+        margin: 1rem;
+    }
+
+    .skills .box {
+
+        flex: 1 1 40%;
+        font-size: 3rem;
+        font-weight: 400;
+        color: #424242;
+        height: 27rem;
+
+    }
+
+    .skills .box img {
+        width: 5rem;
+        height: auto;
+        padding: 2.0rem 0;
+        flex: 1;
     }
 
     /*Projects*/
     .projects {
-        margin:1rem;
+        margin: 3rem;
     }
-    
+
     .projects .box {
         flex: 1 1 20%;
         margin: 0 2rem 4rem 4rem;
-        padding: 1rem;
+        padding: 5rem;
+    }
+
+    .projects .box img {
+        width: 4rem;
+
+    }
+
+    .projects .box a {
+        font-size: 2.7rem;
+        font-weight: 600;
+        color: #1b1b1b;
+        text-decoration: none;
+        transition: 0.3s;
     }
 
     /*Services*/
 
     .services {
         margin: 3.0rem;
-    }
-    
 
-    
+    }
+
+
     .services .box img {
         width: 3rem;
+
+
     }
-  
-  
+    footer{
+        font-size:2.5rem ;
+    }
+
+
 }
+
+
+
