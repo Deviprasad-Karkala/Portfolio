@@ -222,6 +222,9 @@ hr {
     font-weight: 400;
     color: #1b1b1b;
     text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    word-spacing: -0.05em;
     width: 35%;
 
 }
@@ -654,7 +657,7 @@ footer {
 
     .leftsection {
         margin-top: 3.2rem;
-        font-size: 8rem;
+        font-size: 10rem;
         font-weight: 600;
         display: flex;
         flex-direction: column;
@@ -663,7 +666,7 @@ footer {
     }
 
     .leftsection div {
-        font-size: 6.1rem;
+        font-size: 7.8rem;
         font-weight: 400;
         color: #636a7E;
     }
@@ -710,6 +713,10 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        word-spacing: -0.05em;
     }
 
 
@@ -907,7 +914,7 @@ footer {
 
     .leftsection {
         margin-top: 3.2rem;
-        font-size: 8rem;
+        font-size: 10.5rem;
         font-weight: 600;
         display: flex;
         flex-direction: column;
@@ -916,7 +923,7 @@ footer {
     }
 
     .leftsection div {
-        font-size: 6.1rem;
+        font-size: 8.1rem;
         font-weight: 400;
         color: #636a7E;
     }
@@ -956,13 +963,17 @@ footer {
     }
 
     .rightAbout {
-        font-size: 4rem;
+        font-size: 4.5rem;
         width: 100%;
         margin-top: 7rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        word-spacing: -0.05em;
     }
 
 
@@ -1056,4 +1067,3 @@ footer {
 
 
 }
-
