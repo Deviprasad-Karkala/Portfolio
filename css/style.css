@@ -222,9 +222,7 @@ hr {
     font-weight: 400;
     color: #1b1b1b;
     text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    word-spacing: -0.05em;
+    
     width: 35%;
 
 }
@@ -314,50 +312,58 @@ hr {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 3rem 30rem;
-
+    gap: 50px;
 }
-
-.projects .box {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex: 1 1 38%;
-    margin: 0 4rem 4rem 4rem;
+.card {
+    background-color: #f8f8f8;
+    border-radius: 24px;
+    padding: 30px;
+    height: auto;
+    width: 25vw;
     border: .1rem solid rgba(49, 49, 49, 0.1);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    background-color: #f8f8f8;
-    border-radius: 1.6rem;
-    padding: 3rem 0;
+    text-align: center;
     font-size: 1.8rem;
     font-weight: 400;
-    color: #424242;
-
+    
+}
+.card img{
+    width: 100%;
+    padding-bottom: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card p{
+    text-align: justify;
+    padding: 10px 0px;
+}
+.card .links{
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+.card .links .live{
+    color: red;
+    text-decoration:underline
 }
 
-.projects .box img {
-    width: 3rem;
-    height: auto;
-    padding: 2.0rem 0;
-    flex: 1;
-}
-
-
-.projects .box a {
-    font-size: 2.4rem;
+.card  a {
+    font-size: 1.6rem;
     font-weight: 600;
     color: #1b1b1b;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.2s ease-out;
+    padding: 10px;
 }
 
-.projects .box a:hover {
-    font-size: 2.48rem;
-    font-weight: 600;
-    color: #1b1b1b;
-    text-decoration: none;
+
+.card a:hover {
+    font-size: 1.67rem;
+
 }
+
+
 
 /* Services Section */
 
@@ -451,13 +457,18 @@ footer {
 
     /*Projects*/
     .projects {
-        margin: 5rem 30rem;
+        margin: 5rem 0rem;
 
     }
 
-    .projects .box {
-        padding: 5rem 0rem;
+    .card {
+        padding: 30px;
+        width: 35vw;
+       
     }
+
+    
+    
 
 
 
@@ -486,6 +497,18 @@ footer {
     .rightAbout {
         width: 50%;
     }
+    .projects {
+        margin: 5rem 0rem;
+
+    }
+    .card {
+        padding: 20px;
+        height: auto;
+        width: 35vw;
+
+    }
+    
+    
 }
 
 @media screen and (min-width: 913px) and (max-width: 1024px) {
@@ -503,6 +526,18 @@ footer {
         font-size: 1.9rem;
         width: 40%;
     }
+    .projects {
+        margin: 5rem 0rem;
+
+    }
+    .card {
+        
+        width: 35vw;
+        
+        
+    }
+    
+    
 }
 
 @media screen and (min-width: 821px) and (max-width: 912px) {
@@ -519,6 +554,16 @@ footer {
     .rightAbout {
         font-size: 1.9rem;
         width: 40%;
+    }
+    .projects {
+        margin: 5rem 0rem;
+
+    }
+    .card {
+        
+        width: 35vw;
+     
+        
     }
 }
 
@@ -537,6 +582,16 @@ footer {
         font-size: 1.9rem;
         width: 50%;
     }
+    .projects {
+        margin: 5rem 0rem;
+
+    }
+    .card {
+        padding: 18px;
+        width: 40vw;
+        
+        
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 540px) {
@@ -552,6 +607,16 @@ footer {
     .rightAbout {
         font-size: 1.9rem;
         width: 50%;
+    }
+    .projects {
+        margin: 5rem 0rem;
+
+    }
+    .card {
+        padding: 20px;
+        width: 45vw;
+        
+        
     }
 }
 
@@ -768,27 +833,24 @@ footer {
 
     /*Projects*/
     .projects {
-        margin: 3rem;
+        margin: 5rem 0;
     }
 
-    .projects .box {
-        flex: 1 1 20%;
-        margin: 0 2rem 4rem 4rem;
-        padding: 5rem;
+    .card {
+        padding: 20px;
+        height: auto;
+        width: 65vw;
+        font-size: 2.6rem;
+        margin-bottom: -20px;
     }
 
-    .projects .box img {
-        width: 4rem;
 
+    
+    .card  a {
+        font-size: 2.3rem;
+    
     }
-
-    .projects .box a {
-        font-size: 2.7rem;
-        font-weight: 600;
-        color: #1b1b1b;
-        text-decoration: none;
-        transition: 0.3s;
-    }
+    
 
     /*Services*/
 
@@ -1024,27 +1086,25 @@ footer {
     }
 
     /*Projects*/
+
     .projects {
-        margin: 3rem;
+        margin: 5rem;
     }
 
-    .projects .box {
-        flex: 1 1 20%;
-        margin: 0 2rem 4rem 4rem;
-        padding: 5rem;
+    
+    .card {
+        padding: 10px;
+        height: auto;
+        width: 75vw;
+        font-size: 2.6rem;
+        margin-bottom: -20px;
     }
 
-    .projects .box img {
-        width: 4rem;
 
-    }
-
-    .projects .box a {
-        font-size: 2.7rem;
-        font-weight: 600;
-        color: #1b1b1b;
-        text-decoration: none;
-        transition: 0.3s;
+    
+    .card  a {
+        font-size: 2.5rem;
+    
     }
 
     /*Services*/
