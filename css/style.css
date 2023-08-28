@@ -830,7 +830,7 @@ footer {
 
     /*Projects*/
     .projects {
-        margin: 5rem 0;
+        margin: 10rem 0 5rem 0;
     }
 
     .card {
@@ -838,7 +838,7 @@ footer {
         height: auto;
         width: 65vw;
         font-size: 2.6rem;
-        margin-bottom: -20px;
+        margin-top: -20px;
     }
 
 
@@ -1085,7 +1085,7 @@ footer {
     /*Projects*/
 
     .projects {
-        margin: 5rem;
+        margin: 10rem 0 5rem 0;
     }
 
     
