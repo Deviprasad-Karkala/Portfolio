@@ -1,6 +1,6 @@
 version: '3.6'
 services:
-  discord:
+  website:
     image: deviprasad_portfolio
     container_name: deviprasad_portfolio_container
     ports:
